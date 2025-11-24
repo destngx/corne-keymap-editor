@@ -71,7 +71,7 @@
 
         tab {
             bindings = <&kp TAB>;
-            key-positions = <3 2>;
+            key-positions = <2 1>;
         };
 
         caps-word {
