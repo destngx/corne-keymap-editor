@@ -136,8 +136,8 @@
         navigation {
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans    &trans            &trans      &trans      &trans      &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &kp LEFT_ARROW    &kp DOWN    &kp UP      &kp RIGHT   &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &kp C_PLAY_PAUSE  &kp K_MUTE  &kp C_PREV  &kp C_NEXT  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &kp LEFT_ARROW    &kp DOWN    &kp UP      &kp RIGHT   &trans  &bt BT_SEL 0
+&trans  &trans  &trans  &trans  &trans  &trans    &kp C_PLAY_PAUSE  &kp K_MUTE  &kp C_PREV  &kp C_NEXT  &trans  &bt BT_SEL 1
                         &trans  &trans  &trans    &mo 6             &trans      &trans
             >;
         };
