@@ -71,7 +71,7 @@
 
         alttab {
             bindings = <&kp LA(TAB)>;
-            key-positions = <2 1>;
+            key-positions = <1 0>;
         };
 
         caps-word {
