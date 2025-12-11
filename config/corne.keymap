@@ -145,33 +145,6 @@
                         &trans  &trans  &trans    &trans  &trans  &trans
             >;
         };
-
-        BOTH {
-            bindings = <
-&trans  &trans  &trans            &kp K_PREVIOUS     &kp K_NEXT       &trans        &trans  &trans  &trans  &trans      &trans  &bt BT_CLR_ALL
-&trans  &trans  &kp K_PLAY_PAUSE  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &kp K_MUTE    &trans  &trans  &trans  &kp K_LOCK  &trans  &bt BT_SEL 0
-&trans  &trans  &trans            &trans             &trans           &trans        &trans  &trans  &trans  &trans      &trans  &bt BT_SEL 1
-                                  &trans             &trans           &trans        &trans  &trans  &trans
-            >;
-        };
-
-        autoshift {
-            bindings = <
-&trans  &kp Q  &kp W  &kp E   &kp R   &kp T     &kp Y   &kp U   &kp I   &kp O   &kp P   &trans
-&trans  &kp A  &kp S  &kp D   &kp F   &kp G     &kp H   &kp J   &kp K   &kp L   &trans  &trans
-&trans  &kp Z  &kp X  &kp C   &kp V   &kp B     &kp N   &kp M   &trans  &trans  &trans  &trans
-                      &trans  &trans  &trans    &trans  &trans  &trans
-            >;
-        };
-
-        game {
-            bindings = <
-&kp TAB         &kp Q  &kp W  &kp E  &kp R   &kp T        &kp Y      &kp U            &kp I              &kp O            &kp P                 &trans
-&kp ESCAPE      &kp A  &kp S  &kp D  &kp F   &kp G        &kp H      &hmr LEFT_ALT J  &hmr LEFT_SHIFT K  &hmr LEFT_GUI L  &hmr LCTRL SEMICOLON  &trans
-&kp LEFT_SHIFT  &kp Z  &kp X  &kp C  &kp V   &kp B        &kp N      &kp M            &kp COMMA          &kp DOT          &kp FSLH              &trans
-                              &to 0  &trans  &kp SPACE    &kp ENTER  &trans           &kp BACKSPACE
-            >;
-        };
     };
 
     conditional_layers { compatible = "zmk,conditional-layers"; };
